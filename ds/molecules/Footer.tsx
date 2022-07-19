@@ -33,7 +33,7 @@ export const Footer: React.FC = () => (
           built by eden dao
         </Heading>
       </a>
-      <a href="ttps://discord.gg/wrFKNtkXgu">
+      <a href="https://discord.gg/pvZVJk5MRu">
         <Heading
           // fontFamily="cursive"
           color="white"
