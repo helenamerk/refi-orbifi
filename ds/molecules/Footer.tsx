@@ -7,9 +7,9 @@ export const Footer: React.FC = () => (
   <>
     <RadiantBackground minH="120px" w="100vw" h="15vh" />
     <Box
-      minH="120px"
+      minH="10px"
       w="100vw"
-      h="10vh"
+      h="15vh"
       p={0}
       display="flex"
       flexDirection="row"
@@ -23,19 +23,25 @@ export const Footer: React.FC = () => (
       // backdropFilter="blur(4px)"
       // bg="#9797f2"
     >
-      <Heading fontFamily="body" color="white" size="sm" style={{ padding: 10, fontSize: "15px" }}>
-        built by{" "}
+      <Heading
+        fontFamily="body"
+        color="white"
+        size="sm"
+        textAlign="center"
+        style={{ fontSize: "100%", margin: "auto" }}
+      >
+        {/* built by{" "}
         <a href="https://twitter.com/theedendao">
           The Eden Dao <Icon color={"white"} as={FaTwitter} boxSize="6" mx="2" />
         </a>
-        x{" "}
+        x{" "} */}
         <a href="https://twitter.com/spiralsprotocol">
-          Spirals Protocol
-          <Icon color={"white"} as={FaTwitter} boxSize="6" mx="2" />
+          Built By: Spirals Protocol and The Eden DAO
+          {/* <Icon color={"white"} as={FaTwitter} boxSize="6" mx="2" /> */}
         </a>
       </Heading>
 
-      <a href="https://discord.gg/pvZVJk5MRu">
+      {/* <a href="https://discord.gg/pvZVJk5MRu">
         <Heading
           fontFamily="body"
           color="white"
@@ -44,7 +50,7 @@ export const Footer: React.FC = () => (
         >
           Join ReFi DAO <Icon color={"white"} as={FaDiscord} boxSize="6" mx="2" />
         </Heading>
-      </a>
+      </a> */}
     </Box>
   </>
 )
