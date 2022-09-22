@@ -42,8 +42,8 @@ export const PhotoBooth: React.FC<PhotoBoothProps> = ({ next, ...props }) => {
   const { FileInput, selectFile } = useBase64ImageFile(setImage)
 
   const [canvasImage] = useCanvasImage(image)
-  type Tribe = "refi" | "solar" | "aqua" | "earth" | "flora"
-  const [tribe, setTribe] = useState<Tribe>("refi")
+  type Tribe = "refi" | "solar" | "aqua" | "earth" | "flora" | "ca"
+  const [tribe, setTribe] = useState<Tribe>("ca")
   const [canvasBackground] = useCanvasImage(`/orbs/${tribe}.png`)
 
   type State = "ready" | "selected" | "detecting" | "converting" | "complete"
