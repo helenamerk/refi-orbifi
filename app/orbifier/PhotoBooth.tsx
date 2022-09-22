@@ -174,7 +174,7 @@ export const PhotoBooth: React.FC<PhotoBoothProps> = ({ next, ...props }) => {
   return (
     <VStack alignItems="center" spacing={8} {...props}>
       <Shimmer position="relative" fontSize="40" top={4}>
-        Get Your ReFi Orb!
+        Get Your Common Action Orb!
       </Shimmer>
       <Box
         borderRadius="full"
